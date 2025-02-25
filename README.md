@@ -23,7 +23,7 @@
   <p align="center">
     Short two sentence project desctiption here!
     <br />
-    <a href="https://github.com/yujnkm/4-comma-Assignment_01/blob/main/pdf/Reality-Distortion-Room-ISMAR-23.pdf"><strong>Link to PDF Report »</strong></a>
+    <a href="https://github.com/Naaberle/4-comma-Assignment_01/blob/main/pdf/The_Hallucinations_of_a_Surrealist__When_AI_Goes_Awry.pdf"><strong>Link to PDF Report »</strong></a>
     <br />
     <br />
     <a href="https://website.com">Your Name</a>
