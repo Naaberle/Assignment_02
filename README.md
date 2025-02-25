@@ -26,7 +26,7 @@
     <a href="https://github.com/Naaberle/4-comma-Assignment_01/blob/main/pdf/The_Hallucinations_of_a_Surrealist__When_AI_Goes_Awry.pdf"><strong>Link to PDF Report »</strong></a>
     <br />
     <br />
-    <a href="https://website.com">Your Name</a>
+    <a href="https://nikaberle.carbonmade.com">Nik Aberle</a>
     &middot;
     <a href="https://sites.google.com/view/viza626/home">VIZA 626</a>
   </p>
