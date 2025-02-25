@@ -107,9 +107,9 @@ Figure 6. description for Figure 6
 <!-- CONTACT -->
 ## Contact
 
-Your Name - email@tamu.edu
+Your Name - nik.aberle@tamu.edu
 
-Personal Website: [https://website.com](https://website.com)
+Personal Website: https://nikaberle.carbonmade.com
 
 
 
