@@ -18,7 +18,7 @@
 <div align="center">
   </a>
 
-  <h3 align="center">4-Comma: My Title Here</h3>
+  <h3 align="center">The Hallucinations of a Surrealist: When AI Goes Awry</h3>
 
   <p align="center">
     Short two sentence project desctiption here!
