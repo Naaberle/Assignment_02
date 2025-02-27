@@ -38,17 +38,7 @@ Figure 1. This is my 4-comma, explain what this 4-comma is trying to encaptulate
 
 <!-- Abstract -->
 ## Abstract
-Your abstract here: 50 words here.
-
-Example of how to make a list:
-There are many great README templates available on GitHub.
-
-Here's why:
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should implement DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+I designed four sets of 50 questions to elicit hallucinations in an LLM, and asked them to 2 different models. The goal was to quantifiably measure hallucinations in LLM’s. Hallucinations are still an obstacle to LLM’s reliability and widespread use. Very few hallucinations were found.
 
 [![4-comma][images-fig2]](https://example.com)
 
