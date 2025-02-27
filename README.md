@@ -40,58 +40,47 @@ Figure 1. This is my 4-comma, explain what this 4-comma is trying to encaptulate
 ## Abstract
 I designed four sets of 50 questions to elicit hallucinations in an LLM, and asked them to 2 different models. The goal was to quantifiably measure hallucinations in LLM’s. Hallucinations are still an obstacle to LLM’s reliability and widespread use. Very few hallucinations were found.
 
-[![4-comma][images-fig2]](https://example.com)
-
-Figure 2. Related works in this domain. 
-
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works
 
-Your Introduction and Related Works here: 200 words here.
+I’ve always found the concept of hallucinations within AI and LLMs to be among the most fascinating aspects. Over time it went from being something I was amused by – such as when an LLM makes up an accidentally humorous fabrication – to being something that was almost like a game. As the models got better and hallucinations were more infrequent, trying to trick a model into giving false information came with its own sort of reward system. 
 
-Here I talk about how these works have paved the way for my project. Recent research shows that sense of belonging is evoked when using mixed realty [1], and my work is inspired by this xyz. Another recent project examines the beauty of symmetry in evolution [2] that my work highlights in my 4-comma cell number 4. 
-Notable work by Kamp in 2019, highlights the beauty that could be found in nature and how it connects to design [3] and my work show the influence of that visual in 4-comma cell number 3. 
+While some have debated over the use of the word hallucination, as well as its definition when used[1][2], all agree that it is a common issue when training a new model. Since hallucinations can sometimes be very dramatic I chose to illustrate my comic in a minimalist style, so that the 3rd panel could offer a sudden visual difference before the punch line of the joke in panel 4.
 
-How to use subsection:
-
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+Some researchers have also posited that hallucinations are inevitable [3], so to further validate my comic I conducted an experiment involving 200 questions and two different versions of ChatGPT. The goal being to get it to hallucinate, and/or determine which types of questions it’s less likely to hallucinate answers to.
 
 ## Methodology
 
-Your Methodology and Related Works here: 200 words here.
+I broke the 200 hundred questions up into four categories. Known Truths vs Obscure Data, Random Fact Generation, Fake Sources and Citations, and Plausibility-Based Deceptions. For a complete list of the questions as well as a more detailed explanation of each method please see the Supplemental Documentation. 
+
+The hallucination depicted in my comic was a common known hallucination for LLMs circa 2023. A problem that was seemingly simple to solve, but that LLMs couldn’t properly calculate. It has since been fixed, but made me wonder what other seemingly simple things were difficult for LLMs to properly parse. 
+
+I worked in this manner as I believed having four distinct categories offered me a chance to broaden how many ways I could attempt to elicit a hallucination. Working in categories will allow for others to replicate this experiment with their own questions if they so choose. 
+For the testing component, I asked the same questions to both ChatGPT 4o and a free ChatGPT account. I targeted these because they’re currently two of the most commonly used LLMs specifically for text, and would create a great base for my experiment. This methodology could be used to test future LLMs for wide spectrum hallucinations.
+
+## Result and Future Work
+While there were some hallucinations, there were far fewer than I expected. Only a total of three were identified across all eight sets of questions between both models. One important note is that the free ChatGPT was unable to offer answers either way for the article citations as it doesn’t have internet access. If I could do the experiment again I would include more models in different stages of their training to get a more robust series of data across the life of an LLM.
+
+For future works I plan to apply similar methodology seeking hallucinations but to image generation. 
+
+[![4-comma][images-fig2]](https://example.com)
+
+Figure 2. description for Figure 2
 
 [![4-comma][images-fig3]](https://example.com)
 
-Figure 3. Methodology and Workflow: This figure should provide a comprehensive overview of the process used to create or generate your image.
-
-[![4-comma][images-fig4]](https://example.com)
-
-Figure 4. description for Figure 5
-
-## Result and Future Work
-Your Result and Future Work here: 100 words here.
-
-[![4-comma][images-fig5]](https://example.com)
-
-Figure 5. description for Figure 5
+Figure 3. description for Figure 3
 
 ## Conclusion
-Your Conclusion here: 50 words here
-
-[![4-comma][images-fig6]](https://example.com)
-
-Figure 6. description for Figure 6
+After the first set of questions yielded a single hallucination I became both excited to find another and surprised there weren’t more. LLMs have come a long way since their debut and they are far less prone to hallucinations, but that won’t stop me from trying to find them.
 
 <!-- Bibliography -->
 ## Bibliography 
-[1] Galanter, Philip. "Generative art theory." A companion to digital art (2016): 146-180. *Copy of MLA format
+[1] Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, et al. 2025. A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. ACM Transactions on Information Systems 43, 2 (2025), 1–55.
 
-[2] Kim, You-Jin, Misha Sra, and Tobias Höllerer. "Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater." 2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 2024.
+[2] Negar Maleki, Balaji Padmanabhan, and Kaushik Dutta. 2024. AI hallucinations: a misnomer worth clarifying. In 2024 IEEE conference on artificial intelligence (CAI). IEEE, 133–138.
 
-[3] Kim, You-Jin, Misha Sra, and Tobias Höllerer. "Audience Amplified: Virtual Audiences in Asynchronously Performed AR Theater." 2024 IEEE International Symposium on Mixed and Augmented Reality (ISMAR). IEEE, 2024. 
-
+[3] Ziwei Xu, Sanjay Jain, and Mohan Kankanhalli. 2024. Hallucination is inevitable: An innate limitation of large language models. arXiv preprint arXiv:2401.11817 (2024).
 
 
 <!-- CONTACT -->
