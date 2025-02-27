@@ -21,7 +21,7 @@
   <h3 align="center">The Hallucinations of a Surrealist: When AI Goes Awry</h3>
 
   <p align="center">
-    Short two sentence project desctiption here!
+    An experiment to quantify hallucinations in current commonly used Large Language Models.
     <br />
     <a href="https://github.com/Naaberle/4-comma-Assignment_01/blob/main/pdf/The_Hallucinations_of_a_Surrealist__When_AI_Goes_Awry.pdf"><strong>Link to PDF Report »</strong></a>
     <br />
@@ -34,7 +34,7 @@
 
 [![4-comma][images-fig1]](https://example.com)
 
-Figure 1. This is my 4-comma, explain what this 4-comma is trying to encaptulate. *Ensure your image is high-definition, with a width greater than 3500 pixels. If your imafe is not wide enough, it will not fill the page!
+Figure 1. This is my 4-comma, highlighting a previously known hallucination of LLMs (that has since been fixed) that most didn't expect the models to struggle with. 
 
 <!-- Abstract -->
 ## Abstract
@@ -65,11 +65,11 @@ For future works I plan to apply similar methodology seeking hallucinations but 
 
 [![4-comma][images-fig2]](https://example.com)
 
-Figure 2. description for Figure 2
+Figure 2. One of two instances of a hallucination was ChatGPT free hallucinating a movie title and director.
 
 [![4-comma][images-fig3]](https://example.com)
 
-Figure 3. description for Figure 3
+Figure 3. The second instance of hallucination was ChatGPT 4o hallucinating scholarly article locations that didn't exist, though they did contain similar titles.
 
 ## Conclusion
 After the first set of questions yielded a single hallucination I became both excited to find another and surprised there weren’t more. LLMs have come a long way since their debut and they are far less prone to hallucinations, but that won’t stop me from trying to find them.
