@@ -18,7 +18,7 @@
 <div align="center">
   </a>
 
-  <h3 align="center">The Hallucinations of a Surrealist: When AI Goes Awry</h3>
+  <h3 align="center">Assignment 2</h3>
 
   <p align="center">
     An experiment to quantify hallucinations in current commonly used Large Language Models.
