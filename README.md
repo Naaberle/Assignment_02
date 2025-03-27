@@ -44,7 +44,7 @@ Early works of Op Art date back to the 1930s, but the movement truly gained mome
 
 Optical illusions in 2D space rely on specific rules and visual rhythms to be convincing, but those parameters can shift dramatically, and often unpredictably, when illusions are introduced into 3D space. Recent studies on Geometrical Optical Illusions (GOIs) [2] have proposed mathematical models of low-level visual processing to better understand how perception operates. I chose this project as a way to physically analyze GOIs through the Moiré pattern, a fundamental optical illusion involving 'optical line interference' [3].
 
-[![Assignment_02][images-fig2]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig2.png?)
+[![Assignment_02][images-fig2]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig2.png?)/n
 Figure  2. Mathematically a Moiré pattern can be defined as a function of position and rotation of two sets of waves, specifically looking at the overlap. 
 
 Parametrically designed systems for 3D-printed crafts have been introduced in recent years [1], and I used that as a starting point. I plan to focus less on the craft itself, and more emphasis on generating an optical illusion through the interaction of two overlapping components.
