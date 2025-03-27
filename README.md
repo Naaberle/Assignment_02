@@ -46,7 +46,7 @@ Optical illusions in 2D space rely on specific rules and visual rhythms to be co
 
 [![Assignment_02][images-fig2]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig2.png?)
 
-Figure  2. Mathematically a Moiré pattern can be defined as a function (M) of position (x) and rotation (a) of two sets of waves (Da, Db), specifically looking at their overlap to identify the Moiré pattern.
+Figure  2. Mathematically a Moiré pattern can be defined as a function (M) of position (x) and rotation (α) of two sets of waves (Da, Db), specifically looking at their overlap to identify the Moiré pattern.
 
 Parametrically designed systems for 3D-printed crafts have been introduced in recent years [1], and I used that as a starting point. I plan to focus less on the craft itself, and more emphasis on generating an optical illusion through the interaction of two overlapping components.
 
