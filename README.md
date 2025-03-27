@@ -18,12 +18,10 @@
 <div align="center">
   </a>
 
-  <h3 align="center">Assignment 2</h3>
+  <h3 align="center">Moiré Interference: Designing Overlap as a Medium</h3>
 
   <p align="center">
-    An experiment to quantify hallucinations in current commonly used Large Language Models.
-    <br />
-    <a href="https://github.com/Naaberle/4-comma-Assignment_01/blob/main/pdf/The_Hallucinations_of_a_Surrealist__When_AI_Goes_Awry.pdf"><strong>Link to PDF Report »</strong></a>
+    A parametric design strategy for physical Moiré-based illusions in overlapping rotational geometries.
     <br />
     <br />
     <a href="https://nikaberle.carbonmade.com">Nik Aberle</a>
@@ -37,11 +35,11 @@
 Figure 1. This is my 4-comma, highlighting a previously known hallucination of LLMs (that has since been fixed) that most didn't expect the models to struggle with. 
 
 <!-- Abstract -->
-## Abstract
+## Abstract (100 Wds)
 I designed four sets of 50 questions to elicit hallucinations in an LLM, and asked them to 2 different models. The goal was to quantifiably measure hallucinations in LLM’s. Hallucinations are still an obstacle to LLM’s reliability and widespread use. Very few hallucinations were found.
 
 <!-- Introduction and Related Works -->
-## Introduction and Related Works
+## Introduction and Related Works (200 Wds)
 
 I’ve always found the concept of hallucinations within AI and LLMs to be among the most fascinating aspects. Over time it went from being something I was amused by – such as when an LLM makes up an accidentally humorous fabrication – to being something that was almost like a game. As the models got better and hallucinations were more infrequent, trying to trick a model into giving false information came with its own sort of reward system. 
 
@@ -49,7 +47,7 @@ While some have debated over the use of the word hallucination, as well as its d
 
 Some researchers have also posited that hallucinations are inevitable [3], so to further validate my comic I conducted an experiment involving 200 questions and two different versions of ChatGPT. The goal being to get it to hallucinate, and/or determine which types of questions it’s less likely to hallucinate answers to.
 
-## Methodology
+## Methodology (300 wds)
 
 I broke the 200 hundred questions up into four categories. Known Truths vs Obscure Data, Random Fact Generation, Fake Sources and Citations, and Plausibility-Based Deceptions. For a complete list of the questions as well as a more detailed explanation of each method please see the Supplemental Documentation. 
 
@@ -58,7 +56,7 @@ The hallucination depicted in my comic was a common known hallucination for LLMs
 I worked in this manner as I believed having four distinct categories offered me a chance to broaden how many ways I could attempt to elicit a hallucination. Working in categories will allow for others to replicate this experiment with their own questions if they so choose. 
 For the testing component, I asked the same questions to both ChatGPT 4o and a free ChatGPT account. I targeted these because they’re currently two of the most commonly used LLMs specifically for text, and would create a great base for my experiment. This methodology could be used to test future LLMs for wide spectrum hallucinations.
 
-## Result and Future Work
+## Result and Future Work (200 wds)
 While there were some hallucinations, there were far fewer than I expected. Only a total of three were identified across all eight sets of questions between both models. One important note is that the free ChatGPT was unable to offer answers either way for the article citations as it doesn’t have internet access. If I could do the experiment again I would include more models in different stages of their training to get a more robust series of data across the life of an LLM.
 
 For future works I plan to apply similar methodology seeking hallucinations but to image generation. 
@@ -71,7 +69,7 @@ Figure 2. One of two instances of a hallucination was ChatGPT free hallucinating
 
 Figure 3. The second instance of hallucination was ChatGPT 4o hallucinating scholarly article locations that didn't exist, though they did contain similar titles.
 
-## Conclusion
+## Conclusion (100 wds)
 After the first set of questions yielded a single hallucination I became both excited to find another and surprised there weren’t more. LLMs have come a long way since their debut and they are far less prone to hallucinations, but that won’t stop me from trying to find them.
 
 <!-- Bibliography -->
