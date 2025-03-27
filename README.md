@@ -32,7 +32,7 @@
 
 [![4-comma][images-fig1]](https://github.com/Naaberle/4-comma-Assignment_01/blob/main/images/fig1.png)
 
-Figure 1. This is my 4-comma, highlighting a previously known hallucination of LLMs (that has since been fixed) that most didn't expect the models to struggle with. 
+Figure 1. My parametric algorithm in Grasshopper used to create two radial disks (left), the surfaces in red and baked geometries in white in Rhino (center), and the final 3D printed disks. 
 
 <!-- Abstract -->
 ## Abstract
