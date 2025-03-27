@@ -50,7 +50,7 @@ Parametrically designed systems for 3D-printed crafts have been introduced in re
 ## Methodology 
 Since I was targeting Moiré patterns, I needed some form of movement to trigger the effect. The main options were viewer movement, radial movement, or lateral movement. I ultimately chose radial movement and began constructing the inner and outer structures, along with the parametric attributes for the spokes used for both disks.
 
-[![Assignment_02][images-fig2]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig2.png)
+
 Figure  2. Each disk is composed of the same inner and out structure, as well as 5 parameters the user can adjust to create each disk.
 
 I chose radial movement for two key reasons. First, motorizing one of the disks to test various speeds would be much simpler than engineering a back-and-forth mechanism for lateral movement. Second, the parametric design process was more straightforward with a spoke-based system than with a grid-like structure, which would have been more complex to manipulate parametrically for generating the Moiré effect.
