@@ -51,6 +51,7 @@ Figure  2. Mathematically a Moiré pattern can be defined as a function (M) of p
 Parametrically designed systems for 3D-printed crafts have been introduced in recent years [1], and I used that as a starting point. I plan to focus less on the craft itself, and more emphasis on generating an optical illusion through the interaction of two overlapping components.
 
 
+<!-- Methodology -->
 ## Methodology 
 Since I was targeting Moiré patterns, I needed some form of movement to trigger the effect. The main options were viewer movement, radial movement, or lateral movement. I ultimately chose radial movement and began constructing the inner and outer structures, along with the parametric attributes for the spokes used for both disks.
 
@@ -71,7 +72,8 @@ Finally, the FinalSweep section creates a square at the base (center side) of ea
 Figure 5. shows the final calculations for the square that is swept along the spoke as well as the final brep shape that is created and assembled by the rest of the algorithm.
 
 
-## Result and Future Work (200 wds)
+<!-- Results and Future Work -->
+## Results and Future Work
 The parametric design of the disks functions exactly as intended, producing disks capable of creating a Moiré pattern. However the current system allows for the creation of discs that are so sparse or featureless that they fail to generate any visible Moiré pattern. Future work may include analyzing the full parameter set to identify combinations incapable of producing the desired effect, and removing those from user input options to streamline generation.
 
 [![Assignment_02][images-fig6]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig6.png?)
@@ -95,8 +97,9 @@ Figure 8. The disks on the <a href="https://youtube.com/shorts/h3N6dHqKTmk?featu
 This opens up future work focused on determining the specific value of ρmin​ required to consistently reach the threshold for Moiré emergence. Additional areas for exploration could include variable spoke thickness, X and Y axis modulation, or alternative spoke curvatures such as sine, sawtooth, or square waveforms.
 
 
-## Conclusion (100 wds)
-After the first set of questions yielded a single hallucination I became both excited to find another and surprised there weren’t more. LLMs have come a long way since their debut and they are far less prone to hallucinations, but that won’t stop me from trying to find them.
+<!-- Conclusion -->
+## Conclusion
+Creating non-symmetrical pairs of parametrically designed radial geometries, 3D printing them, and introducing rotation offers a novel methodology for using overlap as a medium to explore the requirements for producing a Moiré effect in physical 3D applications. Through analyzing this process and a range of generative outputs, I found that there is a threshold below which a Moiré pattern cannot be formed; identifying that threshold may offer a valuable new experiment and direction. These methods can be extended to other 2D optical illusions not yet fully understood in 3D, opening a wide array of new visual possibilities.
 
 <!-- Bibliography -->
 ## Bibliography 
