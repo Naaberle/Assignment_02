@@ -30,7 +30,7 @@
   </p>
 </div>
 
-[![Assignment_02][images-fig1]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig1.png)
+[![Assignment_02][images-fig1]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig1.png?)
 
 Figure 1. My parametric algorithm in Grasshopper used to create two radial disks (left), the surfaces in red and baked geometries in white in Rhino (center), and the final 3D printed disks. 
 
@@ -72,17 +72,22 @@ Figure 5. shows the final calculations for the square that is swept along the sp
 
 
 ## Result and Future Work (200 wds)
-While there were some hallucinations, there were far fewer than I expected. Only a total of three were identified across all eight sets of questions between both models. One important note is that the free ChatGPT was unable to offer answers either way for the article citations as it doesn’t have internet access. If I could do the experiment again I would include more models in different stages of their training to get a more robust series of data across the life of an LLM.
+The parametric design of the disks functions exactly as intended, producing disks capable of creating a Moiré pattern. However the current system allows for the creation of discs that are so sparse or featureless that they fail to generate any visible Moiré pattern. Future work may include analyzing the full parameter set to identify combinations incapable of producing the desired effect, and removing those from user input options to streamline generation.
 
-For future works I plan to apply similar methodology seeking hallucinations but to image generation. 
+[![Assignment_02][images-fig6]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig6.png?)
 
+One change I would make in a future iteration is to add spoke width as an adjustable parameter. At present, this value is hard-coded based on the height of the outer wall, limiting flexibility and experimentation.
 
+The results from the discs that do produce the Moiré effect are consistent with expectations. However, the first set I printed did not generate any visible interference, which prompted me to propose a modified formulation of the Moiré function:
 
-Figure 2. One of two instances of a hallucination was ChatGPT free hallucinating a movie title and director.
+[![Assignment_02][images-fig7a]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7a.png?)
 
+where:
 
+[![Assignment_02][images-fig7b]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7b.png?)
 
-Figure 3. The second instance of hallucination was ChatGPT 4o hallucinating scholarly article locations that didn't exist, though they did contain similar titles.
+This opens up future work focused on determining the specific value of ρmin​ required to consistently reach the threshold for Moiré emergence. Additional areas for exploration could include variable spoke thickness, X and Y axis modulation, or alternative spoke curvatures such as sine, sawtooth, or square waveforms.
+
 
 ## Conclusion (100 wds)
 After the first set of questions yielded a single hallucination I became both excited to find another and surprised there weren’t more. LLMs have come a long way since their debut and they are far less prone to hallucinations, but that won’t stop me from trying to find them.
@@ -133,6 +138,8 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig4]: images/fig4.png
 [images-fig5]: images/fig5.png
 [images-fig6]: images/fig6.png
+[images-fig7a]: images/fig7a.png
+[images-fig7b]: images/fig7b.png
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
