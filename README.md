@@ -44,27 +44,30 @@ Early works of Op Art date back to the 1930s, but the movement truly gained mome
 
 Optical illusions in 2D space rely on specific rules and visual rhythms to be convincing, but those parameters can shift dramatically, and often unpredictably, when illusions are introduced into 3D space. Recent studies on Geometrical Optical Illusions (GOIs) [2] have proposed mathematical models of low-level visual processing to better understand how perception operates. I chose this project as a way to physically analyze GOIs through the Moiré pattern, a fundamental optical illusion involving 'optical line interference' [3].
 
+[![Assignment_02][images-fig2]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig2.png?)
+Figure  2. Mathematically a Moiré pattern can be defined as a function of position and rotation of two sets of waves, specifically looking at the overlap. 
+
 Parametrically designed systems for 3D-printed crafts have been introduced in recent years [1], and I used that as a starting point. I plan to focus less on the craft itself, and more emphasis on generating an optical illusion through the interaction of two overlapping components.
 
 
 ## Methodology 
 Since I was targeting Moiré patterns, I needed some form of movement to trigger the effect. The main options were viewer movement, radial movement, or lateral movement. I ultimately chose radial movement and began constructing the inner and outer structures, along with the parametric attributes for the spokes used for both disks.
 
-[![Assignment_02][images-fig2]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig2.png?)
-Figure  2. Each disk is composed of the same inner and outer structure, as well as 5 parameters the user can adjust to create each disk.
+[![Assignment_02][images-fig3]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig3.png?)
+Figure  3. Each disk is composed of the same inner and outer structure, as well as 5 parameters the user can adjust to create each disk.
 
 I chose radial movement for two key reasons. First, motorizing one of the disks to test various speeds would be much simpler than engineering a back-and-forth mechanism for lateral movement. Second, the parametric design process was more straightforward with a spoke-based system than with a grid-like structure, which would have been more complex to manipulate parametrically for generating the Moiré effect.
 
 The parametric design of the spokes begins with copies of the inner and outer rings used for the walls. These curves are subdivided into equal segments with BaseCurves—one of the adjustable parameters provided in the inputs. The resulting points are then moved upwards by half the thickness of the outer wall via AdjustedStartingPts. Straight lines are drawn between corresponding points on the inner and outer curves to form the base of each spoke (MainSpokes), which are then further subdivided based on user input.
 
-[![Assignment_02][images-fig3]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig3.png)
-Figure 3. shows the subdivision of the outer curves, the creation of the spokes, the zigzag series, the curve offset, and ends with the final NURBS curves for the center of each spoke.
+[![Assignment_02][images-fig4]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig4.png?)
+Figure 4. shows the subdivision of the outer curves, the creation of the spokes, the zigzag series, the curve offset, and ends with the final NURBS curves for the center of each spoke.
 
 The CurveOffset and ZigZagSeries sections of the algorithm generate two things: a set of points created by subdividing each spoke line, and a corresponding series of offset values. Using these, a NURBS curve is generated, with the user able to control the complexity of the curve—from 0 (straight) to 5 (fully smooth).
 Finally, the FinalSweep section creates a square at the base (center side) of each spoke, aligns it to the curve’s tangent, and sweeps it outward along the NURBS path. The resulting spokes are then combined with the inner and outer walls, capped, and can be baked into Rhino for export.
 
-[![Assignment_02][images-fig4]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig4.png)
-Figure 4. shows the final calculations for the square that is swept along the spoke as well as the final brep shape that is created and assembled by the rest of the algorithm.
+[![Assignment_02][images-fig5]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig5.png?)
+Figure 5. shows the final calculations for the square that is swept along the spoke as well as the final brep shape that is created and assembled by the rest of the algorithm.
 
 
 ## Result and Future Work (200 wds)
