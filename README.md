@@ -78,7 +78,7 @@ The parametric design of the disks functions exactly as intended, producing disk
 
 One change I would make in a future iteration is to add spoke width as an adjustable parameter. At present, this value is hard-coded based on the height of the outer wall, limiting flexibility and experimentation.
 
-The results from the discs that do produce the Moiré effect are consistent with expectations. However, the first set I printed did not generate any visible interference, which prompted me to propose a modified formulation of the Moiré function:
+The results from the discs that do produce the Moiré effect are consistent with expectations. However, the first set I printed did not generate any visible interference, which prompted me to propose a modified formulation of the Moiré function as shown in Figures 7a & 7b.
 
 [![Assignment_02][images-fig7a]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7a.png?)<br />
 
