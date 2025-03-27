@@ -109,14 +109,12 @@ Creating non-symmetrical pairs of parametrically designed radial geometries, 3D 
 
 [3] Lothar Spillmann. 1993. The perception of movement and depth in moiré patterns. Perception 22, 3 (1993), 287–308.
 
+
 <!-- CONTACT -->
 ## Contact
-
 Your Name - nik.aberle@tamu.edu
 
 Personal Website: https://nikaberle.carbonmade.com
-
-
 
 
 <!-- ACKNOWLEDGMENTS -->
