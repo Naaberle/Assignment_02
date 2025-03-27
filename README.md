@@ -75,6 +75,7 @@ Figure 5. shows the final calculations for the square that is swept along the sp
 The parametric design of the disks functions exactly as intended, producing disks capable of creating a Moiré pattern. However the current system allows for the creation of discs that are so sparse or featureless that they fail to generate any visible Moiré pattern. Future work may include analyzing the full parameter set to identify combinations incapable of producing the desired effect, and removing those from user input options to streamline generation.
 
 [![Assignment_02][images-fig6]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig6.png?)
+Figure 6. shows 4 different spokes generated parametrically but currently unknown if they'd create a Moiré pattern when combined with other disks.
 
 One change I would make in a future iteration is to add spoke width as an adjustable parameter. At present, this value is hard-coded based on the height of the outer wall, limiting flexibility and experimentation.
 
