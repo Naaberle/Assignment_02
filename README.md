@@ -47,28 +47,36 @@ Optical illusions in 2D space rely on specific rules and visual rhythms to be co
 Parametrically designed systems for 3D-printed crafts have been introduced in recent years [1], and I used that as a starting point. I plan to focus less on the craft itself, and more emphasis on generating an optical illusion through the interaction of two overlapping components.
 
 
-## Methodology (300 wds)
+## Methodology 
+Since I was targeting Moiré patterns, I needed some form of movement to trigger the effect. The main options were viewer movement, radial movement, or lateral movement. I ultimately chose radial movement and began constructing the inner and outer structures, along with the parametric attributes for the spokes used for both disks.
 
-Since I was targeting Moiré patterns, I needed some form of movement to trigger the effect. The main options were viewer movement, radial movement, or lateral movement. I ultimately chose radial movement and began constructing the inner and outer structures, along with the parametric attributes for the spokes.
-Fig 2.
+[![Assignment_02][images-fig2]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig2.png)
+Figure  2. Each disk is composed of the same inner and out structure, as well as 5 parameters the user can adjust to create each disk.
+
 I chose radial movement for two key reasons. First, motorizing one of the disks to test various speeds would be much simpler than engineering a back-and-forth mechanism for lateral movement. Second, the parametric design process was more straightforward with a spoke-based system than with a grid-like structure, which would have been more complex to manipulate parametrically for generating the Moiré effect.
+
 The parametric design of the spokes begins with copies of the inner and outer rings used for the walls. These curves are subdivided into equal segments with BaseCurves—one of the adjustable parameters provided in the inputs. The resulting points are then moved upwards by half the thickness of the outer wall via AdjustedStartingPts. Straight lines are drawn between corresponding points on the inner and outer curves to form the base of each spoke (MainSpokes), which are then further subdivided based on user input.
-Fig 3.
+
+[![Assignment_02][images-fig3]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig3.png)
+Figure 3. shows the subdivision of the outer curves, the creation of the spokes, the zigzag series, the curve offset, and ends with the final NURBS curves for the center of each spoke.
+
 The CurveOffset and ZigZagSeries sections of the algorithm generate two things: a set of points created by subdividing each spoke line, and a corresponding series of offset values. Using these, a NURBS curve is generated, with the user able to control the complexity of the curve—from 0 (straight) to 5 (fully smooth).
 Finally, the FinalSweep section creates a square at the base (center side) of each spoke, aligns it to the curve’s tangent, and sweeps it outward along the NURBS path. The resulting spokes are then combined with the inner and outer walls, capped, and can be baked into Rhino for export.
-Fig 4.
-v
+
+[![Assignment_02][images-fig4]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig4.png)
+Figure 4. shows the final calculations for the square that is swept along the spoke as well as the final brep shape that is created and assembled by the rest of the algorithm.
+
 
 ## Result and Future Work (200 wds)
 While there were some hallucinations, there were far fewer than I expected. Only a total of three were identified across all eight sets of questions between both models. One important note is that the free ChatGPT was unable to offer answers either way for the article citations as it doesn’t have internet access. If I could do the experiment again I would include more models in different stages of their training to get a more robust series of data across the life of an LLM.
 
 For future works I plan to apply similar methodology seeking hallucinations but to image generation. 
 
-[![4-comma][images-fig2]](https://example.com)
+
 
 Figure 2. One of two instances of a hallucination was ChatGPT free hallucinating a movie title and director.
 
-[![4-comma][images-fig3]](https://example.com)
+
 
 Figure 3. The second instance of hallucination was ChatGPT 4o hallucinating scholarly article locations that didn't exist, though they did contain similar titles.
 
