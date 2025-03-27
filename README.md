@@ -30,7 +30,7 @@
   </p>
 </div>
 
-[![Assignment_02][images-fig1]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig1.png?)
+[![Assignment_02][images-fig1]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig1.png?) <br />
 Figure 1. My parametric algorithm in Grasshopper used to create two radial disks (left), the surfaces in red and baked geometries in white in Rhino (center), and the final 3D printed disks. 
 
 <!-- Abstract -->
@@ -80,12 +80,12 @@ One change I would make in a future iteration is to add spoke width as an adjust
 
 The results from the discs that do produce the Moiré effect are consistent with expectations. However, the first set I printed did not generate any visible interference, which prompted me to propose a modified formulation of the Moiré function:
 
-[![Assignment_02][images-fig7a]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7a.png?)
+[![Assignment_02][images-fig7a]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7a.png?)<br />
 Figure 7a. Modified equation for the emergence of Moiré patterns that includes a certain threshold that must be met before the pattern emerges.
 
 where:
 
-[![Assignment_02][images-fig7b]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7b.png?)
+[![Assignment_02][images-fig7b]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig7b.png?)<br />
 Figure 7b. defines Big Theta of ρ in this equation as 1 or 0 depending whether or not ρmin has been met to create a Moiré pattern.
 
 This opens up future work focused on determining the specific value of ρmin​ required to consistently reach the threshold for Moiré emergence. Additional areas for exploration could include variable spoke thickness, X and Y axis modulation, or alternative spoke curvatures such as sine, sawtooth, or square waveforms.
