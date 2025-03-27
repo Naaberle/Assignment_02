@@ -39,13 +39,13 @@ Figure 1. My parametric algorithm in Grasshopper used to create two radial disks
 Utilizing parametric design principles within Grasshopper and Rhino, I designed a system for generating unique radial geometries to explore their overlaps in the context of Moiré-based illusions. The goal was to create a means to analyze how interference patterns emerge from physical overlap, and to identify configurations that could be 3D printed to produce convincing optical illusions. This process helps define specific metrics that influence the Moiré effect; such as the number of spokes, spoke width, depth, direction, and potentially even rotational speed. The result is an elegant solution for rapidly prototyping and testing combinations of interference in physical forms.
 
 <!-- Introduction and Related Works -->
-## Introduction and Related Works (200 Wds)
+## Introduction and Related Works
+Early works of Op Art date back to the 1930s, but the movement truly gained momentum and developed into its own in the 1960s, with artists such as Jesús Soto, Yaacov Agam, Francisco Sobrino, and many others. As both a movement and a visual medium, I’ve always been fascinated by Op Art and have sought ways to incorporate it into my installation and sculptural works; more recently exploring how to integrate it with digital technologies as part of the creative workflow.
 
-I’ve always found the concept of hallucinations within AI and LLMs to be among the most fascinating aspects. Over time it went from being something I was amused by – such as when an LLM makes up an accidentally humorous fabrication – to being something that was almost like a game. As the models got better and hallucinations were more infrequent, trying to trick a model into giving false information came with its own sort of reward system. 
+Optical illusions in 2D space rely on specific rules and visual rhythms to be convincing, but those parameters can shift dramatically, and often unpredictably, when illusions are introduced into 3D space. Recent studies on Geometrical Optical Illusions (GOIs) [2] have proposed mathematical models of low-level visual processing to better understand how perception operates. I chose this project as a way to physically analyze GOIs through the Moiré pattern, a fundamental optical illusion involving 'optical line interference' [3].
 
-While some have debated over the use of the word hallucination, as well as its definition when used[1][2], all agree that it is a common issue when training a new model. Since hallucinations can sometimes be very dramatic I chose to illustrate my comic in a minimalist style, so that the 3rd panel could offer a sudden visual difference before the punch line of the joke in panel 4.
+Parametrically designed systems for 3D-printed crafts have been introduced in recent years [1], and I used that as a starting point. I plan to focus less on the craft itself, and more emphasis on generating an optical illusion through the interaction of two overlapping components.
 
-Some researchers have also posited that hallucinations are inevitable [3], so to further validate my comic I conducted an experiment involving 200 questions and two different versions of ChatGPT. The goal being to get it to hallucinate, and/or determine which types of questions it’s less likely to hallucinate answers to.
 
 ## Methodology (300 wds)
 
@@ -76,10 +76,9 @@ After the first set of questions yielded a single hallucination I became both ex
 ## Bibliography 
 [1] Samuelle Bourgault, Pilar Wiley, Avi Farber, and Jennifer Jacobs. 2023. CoilCAM: Enabling parametric design for clay 3D printing through an action-oriented toolpath programming system. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems. 1–16.
 
-[2] Lothar Spillmann. 1993. The perception of movement and depth in moiré patterns. Perception 22, 3 (1993), 287–308
+[2] Benedetta Franceschiello, Alessandro Sarti, and Giovanna Citti. 2017. Mathematical models of visual perception for the analysis of geometrical optical illusions. Mathematical and Theoretical Neuroscience: Cell, Network and Data Analysis (2017), 135–149.
 
-[3] Ziwei Xu, Sanjay Jain, and Mohan Kankanhalli. 2024. Hallucination is inevitable: An innate limitation of large language models. arXiv preprint arXiv:2401.11817 (2024).
-
+[3] Lothar Spillmann. 1993. The perception of movement and depth in moiré patterns. Perception 22, 3 (1993), 287–308.
 
 <!-- CONTACT -->
 ## Contact
