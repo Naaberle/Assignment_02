@@ -35,8 +35,8 @@
 Figure 1. This is my 4-comma, highlighting a previously known hallucination of LLMs (that has since been fixed) that most didn't expect the models to struggle with. 
 
 <!-- Abstract -->
-## Abstract (100 Wds)
-I designed four sets of 50 questions to elicit hallucinations in an LLM, and asked them to 2 different models. The goal was to quantifiably measure hallucinations in LLM’s. Hallucinations are still an obstacle to LLM’s reliability and widespread use. Very few hallucinations were found.
+## Abstract
+Utilizing parametric design principles within Grasshopper and Rhino, I designed a system for generating unique radial geometries to explore their overlaps in the context of Moiré-based illusions. The goal was to create a means to analyze how interference patterns emerge from physical overlap, and to identify configurations that could be 3D printed to produce convincing optical illusions. This process helps define specific metrics that influence the Moiré effect; such as the number of spokes, spoke width, depth, direction, and potentially even rotational speed. The result is an elegant solution for rapidly prototyping and testing combinations of interference in physical forms.
 
 <!-- Introduction and Related Works -->
 ## Introduction and Related Works (200 Wds)
