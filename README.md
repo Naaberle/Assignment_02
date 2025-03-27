@@ -35,7 +35,7 @@ Figure 1. My parametric algorithm in Grasshopper used to create two radial disks
 
 <!-- Abstract -->
 ## Abstract
-Utilizing parametric design principles within Grasshopper and Rhino, I designed a system for generating unique radial geometries to explore their overlaps in the context of Moiré-based illusions. The goal was to create a means to analyze how interference patterns emerge from physical overlap, and to identify configurations that could be 3D printed to produce convincing optical illusions. This process helps define specific metrics that influence the Moiré effect; such as the number of spokes, spoke width, depth, direction, and potentially even rotational speed. The result is an elegant solution for rapidly prototyping and testing combinations of interference in physical forms.
+Utilizing parametric design principles within Grasshopper and Rhino, I designed a system for generating unique radial geometries to explore their overlaps in the context of Moiré-based illusions. The goal was to create a novel method to analyze how interference patterns emerge from physical overlap, and to identify configurations that could be 3D printed to produce convincing optical illusions. This process defines specific metrics that influence the Moiré effect; such as the number of spokes, spoke width, depth, direction, and potentially even rotational speed. The result is an elegant solution for rapidly prototyping and testing combinations of interference in physical forms.
 
 
 <!-- Introduction and Related Works -->
