@@ -74,9 +74,9 @@ After the first set of questions yielded a single hallucination I became both ex
 
 <!-- Bibliography -->
 ## Bibliography 
-[1] Lei Huang, Weijiang Yu, Weitao Ma, Weihong Zhong, Zhangyin Feng, Haotian Wang, Qianglong Chen, Weihua Peng, Xiaocheng Feng, Bing Qin, et al. 2025. A survey on hallucination in large language models: Principles, taxonomy, challenges, and open questions. ACM Transactions on Information Systems 43, 2 (2025), 1–55.
+[1] Samuelle Bourgault, Pilar Wiley, Avi Farber, and Jennifer Jacobs. 2023. CoilCAM: Enabling parametric design for clay 3D printing through an action-oriented toolpath programming system. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems. 1–16.
 
-[2] Negar Maleki, Balaji Padmanabhan, and Kaushik Dutta. 2024. AI hallucinations: a misnomer worth clarifying. In 2024 IEEE conference on artificial intelligence (CAI). IEEE, 133–138.
+[2] Lothar Spillmann. 1993. The perception of movement and depth in moiré patterns. Perception 22, 3 (1993), 287–308
 
 [3] Ziwei Xu, Sanjay Jain, and Mohan Kankanhalli. 2024. Hallucination is inevitable: An innate limitation of large language models. arXiv preprint arXiv:2401.11817 (2024).
 
