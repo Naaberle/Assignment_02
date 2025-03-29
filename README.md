@@ -91,7 +91,7 @@ where:
 Figure 7a. (Above) shows a modified equation for the emergence of Moiré patterns that includes a certain threshold that must be met before the pattern emerges. <br />
 Figure 7b. (Below) defines Big Theta of ρ in this equation as 1 or 0 depending whether or not ρmin has been met to create a Moiré pattern.
 
-<video src="https://drive.google.com/file/d/1XoDEPNDAZGLP22nPZak5aulr01RqTJtl/view?usp=sharing" autoplay loop muted playsinline width="600"></video>
+<video src="https://www.dropbox.com/scl/fi/wdwq8nebnem0t165a6ep9/MoireGif.mp4?raw=1" autoplay loop muted playsinline width="600"></video>
 Figure 8. The disks on the <a href="https://youtube.com/shorts/h3N6dHqKTmk?feature=share">left</a> did not achieve Moiré while those on the <a href="https://youtube.com/shorts/N_jdyw0EP1k?feature=share">right</a> did.
 
 This opens up future work focused on determining the specific value of ρmin​ required to consistently reach the threshold for Moiré emergence. Additional areas for exploration could include variable spoke thickness, X and Y axis modulation, or alternative spoke curvatures such as sine, sawtooth, or square waveforms.
