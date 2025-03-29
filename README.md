@@ -91,7 +91,7 @@ where:
 Figure 7a. (Above) shows a modified equation for the emergence of Moiré patterns that includes a certain threshold that must be met before the pattern emerges. <br />
 Figure 7b. (Below) defines Big Theta of ρ in this equation as 1 or 0 depending whether or not ρmin has been met to create a Moiré pattern.
 
-[![Assignment_02][images-fig8]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig8.png?)<br />
+[![Assignment_02][images-fig8]](https://github.com/Naaberle/Assignment_02/blob/main/images/fig8.gif?)<br />
 Figure 8. The disks on the <a href="https://youtube.com/shorts/h3N6dHqKTmk?feature=share">left</a> did not achieve Moiré while those on the <a href="https://youtube.com/shorts/N_jdyw0EP1k?feature=share">right</a> did.
 
 This opens up future work focused on determining the specific value of ρmin​ required to consistently reach the threshold for Moiré emergence. Additional areas for exploration could include variable spoke thickness, X and Y axis modulation, or alternative spoke curvatures such as sine, sawtooth, or square waveforms.
@@ -147,7 +147,7 @@ VIZA 626 Class Website: [https://sites.google.com/view/viza626/](https://sites.g
 [images-fig6]: images/fig6.png
 [images-fig7a]: images/fig7a.png
 [images-fig7b]: images/fig7b.png
-[images-fig8]: images/fig8.png
+[images-fig8]: images/fig8.gif
 [Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
 [Next-url]: https://nextjs.org/
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
